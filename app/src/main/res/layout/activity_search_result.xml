@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/actionbar" />
+
+    <fragment
+        android:id="@+id/login_search_tab1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.search.fragment.SearchFragment1" />
+
+    <fragment
+        android:id="@+id/login_search_tab2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.company2.CompanyFragment2" />
+
+    <fragment
+        android:id="@+id/login_search_tab3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.search.fragment.SearchFragment3" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        />
+
+    <com.boss.view.SearchResultFragmentIndicator
+        android:background="@color/app_white"
+        android:id="@+id/login_main_company_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp" />
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar" />
+
+    <LinearLayout
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height"
+        android:background="@color/background" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教育经历" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/register_employeestep3_school"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学校" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_schoolTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/register_employeestep3_school_school"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学院" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_school_schoolTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="计算机科学与工程" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/register_employeestep3_major"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_majorTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="产品设计" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/register_employeestep3_education"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学历" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_educationTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="本科" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间段" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_beginTime"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2010" />
+
+        <TextView
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/register_employeestep3_doneTime"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2014" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/register_employeestep3_goEmployStep4"
+        style="@style/Normal_Button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/btn_marginLeft"
+        android:text="下一步" >
+    </Button>
+
+</LinearLayout>

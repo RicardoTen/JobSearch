@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goChaneUserData"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_img_height"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_launcher" />
+                <!-- 中间的两个Text开始 -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="@dimen/txt_small_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="编辑个人信息"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="@dimen/txt_small_size" />
+                </LinearLayout>
+                <!-- 中间的两个Text结束 -->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyQiuzhiyixiang"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="管理求职意向" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上传附件简历" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:background="@color/background" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="简历详情" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyintroduce"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我的优势" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyShejiaozhuye"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="社交主页" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyWorkExp"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="工作经历" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyXiangmuExp"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目经历" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_goMyEduExp"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="教育经历" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/employee4_in_editdata_goYulanjianli"
+        style="@style/Normal_Button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="预览简历" >
+    </Button>
+
+</LinearLayout>

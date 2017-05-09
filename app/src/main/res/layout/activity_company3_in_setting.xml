@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--  <include layout="@layout/actionbar" />-->
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_tip"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="更改资料" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_shiping"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="视频通话" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_changephone"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改手机号" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_changepassword"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置密码" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_updata"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="版本更新" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_help"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发布招聘" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_aboutus"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="数据统计" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company3_in_setting_changetype"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="切换身份" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/company3_in_setting_exit"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_more_height"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退出登录"
+                    android:textColor="@color/lightpink" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

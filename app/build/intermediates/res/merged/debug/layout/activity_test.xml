@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+   <include layout="@layout/actionbar"></include>
+    
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+        android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+        android:layout_gravity="center"
+            android:background="#ffffff"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+   <!-- android:layout_alignParentBottom="true"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_begin_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_weight="1"
+            style="?attr/buttonBarButtonStyle"
+            android:text="进行会话"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/app_black"
+            />
+
+        <Button
+            android:id="@+id/btn_set_interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/buttonBarButtonStyle"
+            android:visibility="gone"
+android:layout_weight="1"
+            android:text="感兴趣"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="@dimen/sp_14"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

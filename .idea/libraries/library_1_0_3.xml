@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/34f0f20594fc50a408396e6d58848860dd168afa/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/34f0f20594fc50a408396e6d58848860dd168afa/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jwenfeng.pulltorefresh/library/1.0.3/68c0abd6e235729776d02bd9a0f5f1f6893c26d7/library-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

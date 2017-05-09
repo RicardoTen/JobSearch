@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_0e90bd61a07e22861dc25758c7df62159f3b007c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\滕新科\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.2.5\e135072797f494a3b6cb10640dd8c6495261b9ac\MPAndroidChart-v2.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e135072797f494a3b6cb10640dd8c6495261b9ac">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.2.5_f516c46b036e36f02eaeead3d92eff764c62b5ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\zxing_d2f082dcfc05876e4c5950875e987025a637858e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\滕新科\.android\build-cache\312e4f89ecb18448e736acaea8104745c63040e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="838172f1d23787cc52bb558ef989605bc2aecf62">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\classes_20652af70416c91457d08a6337f7627c90940806.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\rxandroid-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_170373df2a585e939521729ead9d1bd75f0e20e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_9102525446cdd46f3fa7694b6b12f8673303c9ff.jar" />
+    </item>
+
+</items>

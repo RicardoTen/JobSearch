@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boss"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <!-- 允许联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许读取手机状态 用于创建BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许拍照 -->
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" /> <!-- 使用照相机权限 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- 自动聚焦权限 -->
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 87ab0f9bee41bce86dfadd69af692873 -->
+
+
+    <!-- android:name="com.boss.login.SplashActivity" -->
+    <application
+        android:name="com.boss.BossApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.boss.slpash.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 公共的activity -->
+        <activity android:name="com.boss.activity.SetDataActivity" />
+        <activity android:name="com.boss.company2.CompanyInfoActiviy" />
+        <activity
+            android:name="com.boss.search.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.boss.search.SearchResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.boss.employee2.JobInfoActivity" />
+        <activity android:name="com.boss.register.setCompanyTypeActivity" />
+        <activity android:name="com.boss.register.setCompanyMemberNum" />
+        <activity android:name="com.boss.company3.in.release.ReleseJobActivity" />
+        <activity android:name="com.boss.company3.in.release.ReleseJobListActivity" />
+        <activity android:name="com.boss.company3.in.release.setListDataActivity" />
+        <activity android:name="com.boss.company3.in.recievejianli.InterestJianliActivity" />
+        <activity android:name="com.boss.company3.in.recievejianli.ReciveJianliListActivity" />
+        <activity android:name="com.boss.company3.in.recievejianli.ReviewJianliActivity" />
+        <activity android:name="com.boss.employee4.in.PostJobListActivity" />
+        <activity android:name="com.boss.statistic.StatisticActivity" />
+        <activity android:name="com.boss.admin.AdminActivity" />
+        <activity android:name="com.boss.admin.CreateAdminActivity" />
+        <activity android:name="com.boss.admin.CheckJobActivity" />
+
+        <!-- login -->
+        <activity android:name="com.boss.login.BaseActivity" />
+        <activity android:name="com.boss.login.LoginActivity" />
+        <activity android:name="com.boss.login.MainCompanyActivity" />
+        <activity android:name="com.boss.login.PasswordLoginActivity" />
+        <activity android:name="com.boss.login.UserAggrementActivity" />
+        <activity android:name="com.boss.login.FrogetPasswordActivity" />
+        <activity android:name="com.boss.login.MainEmployeeActivity" />
+        <activity android:name="com.boss.admin.ChackCompanyActivity" />
+        <activity android:name="com.boss.admin.CheckCompanyInfoActivity" />
+        <activity android:name="com.boss.admin.CheckJobInfoActivity" />
+
+        <!-- register -->
+        <activity android:name="com.boss.register.RegisterActivity" />
+        <activity android:name="com.boss.register.EmployeeStep1Activity" />
+        <activity android:name="com.boss.register.CompanyStep1Activity" />
+        <activity android:name="com.boss.register.EmployeeStep2Activity" />
+        <activity android:name="com.boss.register.EmployeeStep3Activity" />
+        <activity android:name="com.boss.register.SetWorkTypeActivity" />
+        <activity android:name="com.boss.register.SetWorkSkillActivity" />
+        <activity android:name="com.boss.register.EmployeeStep4Activity" />
+
+        <!-- company1 -->
+        <activity android:name="com.boss.company1.UserJianliActivity" />
+        <activity android:name="com.boss.company1.AAActivity" />
+
+        <!-- company3 -->
+        <activity android:name="com.boss.company3.in.setting.SettingActivity" />
+
+        <!-- employee4 -->
+        <activity android:name="com.boss.employee4.in.editdata.EditDataActivity" />
+        <activity android:name="com.boss.employee4.in.setting.SettingActivity" />
+        <activity android:name="com.boss.employee4.in.setting.ChangePassword" />
+        <activity android:name="com.boss.employee4.in.editdata.MyIntroduceActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.MyShejiaozhuyeActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.qiuzhiyixiang.MyQiuzhiyixiang" />
+        <activity android:name="com.boss.employee4.in.editdata.qiuzhiyixiang.AddExpectWorkActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.qiuzhiyixiang.SetWorkHangyeActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.qiuzhiyixiang.AddExpectWorkChangeActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.qiuzhiyixiang.SetCityActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.UserDataActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.MyWorkExpActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.YuLanJianLiActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.MyEduExpActivity" />
+        <activity android:name="com.boss.employee4.in.editdata.MyXiangmuActivity" />
+        <activity android:name="com.boss.employee4.ct.ResultActivity" />
+        <activity android:name="com.boss.employee4.ct.CaptureActivity" />
+
+        <!-- IM相关 -->
+
+        <activity
+            android:name="com.boss.im.ui.ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:name="com.boss.im.ui.SearchUserActivity" />
+        <activity android:name="com.boss.im.ui.UserInfoActivity" />
+
+        <receiver android:name="cn.bmob.newim.core.ConnectChangeReceiver" >
+            <intent-filter>
+                <action android:name="cn.bmob.action.RECONNECT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="cn.bmob.newim.core.service.BmobIMService"
+            android:process=":bmobcore" />
+        <service
+            android:name="cn.bmob.newim.core.service.NotifyService"
+            android:process=":bmobcore" />
+        <service android:name="cn.bmob.newim.core.service.ReConnectService" />
+        <service android:name="cn.bmob.newim.core.service.HeartBeatService" />
+
+        <!-- 设置bmob appkey -->
+        <meta-data
+            android:name="Bmob_APP_KEY"
+            android:value="a39a53c657c892c5ed37124f2ead2a32" />
+    </application>
+
+</manifest>

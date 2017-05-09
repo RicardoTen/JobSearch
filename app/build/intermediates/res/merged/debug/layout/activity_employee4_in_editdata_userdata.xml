@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+     >
+
+    <include layout="@layout/actionbar" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_userdata_avatar"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_img_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/employee4_in_editdata_userdata_Myavatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_userdata_nick"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_more_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_userdata_nickTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_userdata_workYear"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_more_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参加工作年份" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_userdata_workYearTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_userdata_weChat"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_more_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信号" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_userdata_weChatTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

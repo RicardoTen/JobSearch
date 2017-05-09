@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_employeeType"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职业类型" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_employeeTypeTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_zhiyemingcheng"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职业名称" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_zhiyemingchengTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_companyName"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司名称" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_companyNameTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_companyHangye"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司行业" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_companyHangyeTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_skill"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技能标签" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_skillTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间段" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_begin"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请选择" />
+
+        <TextView
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="至" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_done"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="至今" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_suoshubumen"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所属部门" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_suoshubumenTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_workcontent"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作内容" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_workcontentTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_mayworkexp_gongzuoyeji"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作业绩" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_mayworkexp_gongzuoyejiTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

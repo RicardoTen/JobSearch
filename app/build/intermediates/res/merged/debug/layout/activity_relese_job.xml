@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar" />
+
+    <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height"
+        android:background="@color/background" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职位信息" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/layout_job_name"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职位名称" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_job_name"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/layout_job_exp"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="要求经验" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_job_exp"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/layout_job_edu"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="要求学历" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_job_edu"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+
+                android:id="@+id/layout_job_money"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="薪资" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+
+                    android:id="@+id/tv_job_money"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+
+                android:id="@+id/layout_job_member_num"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="需求人数" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_job_member_num"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+
+                android:id="@+id/layout_job_request"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职位具体要求" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+
+                    android:id="@+id/tv_hint_company_poi"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+
+                android:id="@+id/laout_job_skill"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职位技能要求" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+
+                    android:id="@+id/tv_hint_company_member"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/layout_job_detail_poi"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="公司详细地址" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+
+                android:id="@+id/layout_job_type"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_normal_height">
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职业类型" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+
+                    android:id="@+id/tv_job_flag"
+                    style="@style/Normal_Linearlayout_rightTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/register_companystep1_goCompanyMain"
+        style="@style/Normal_Button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/btn_marginLeft"
+        android:text="保存" />
+
+</LinearLayout>

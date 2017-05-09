@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/app_white"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/register_employeestep1_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/lightsalmon" />
+    </LinearLayout>
+   <include layout="@layout/fengexian" />
+
+    <LinearLayout
+        android:id="@+id/register_employeestep1_Nick"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep1_Nicktxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+  <include layout="@layout/fengexian" />
+    <LinearLayout
+        android:id="@+id/register_employeestep1_workYear"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参加工作年份" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/register_employeestep1_workYeartxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <include layout="@layout/fengexian" />
+    <LinearLayout
+        android:id="@+id/layout_sex"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_normal_height" >
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/hint_sex"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/txt_gray_shen_color"
+        android:textSize="@dimen/txt_normal_size"
+        android:text="创建一份微简历，高薪职位触手可及 " />
+
+    <Button
+        android:id="@+id/register_employeestep1_goStep2"
+        android:text="创建微简历"
+        style="@style/Normal_Button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/btn_marginLeft" >
+    </Button>
+
+</LinearLayout>

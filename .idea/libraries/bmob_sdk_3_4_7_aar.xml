@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="bmob-sdk-3.4.7-aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/094f046d8e75807560af0bbe9fd66b55d36a0ff3/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/094f046d8e75807560af0bbe9fd66b55d36a0ff3/output/jars/libs/BmobSDK_V3.4.7_0527.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/094f046d8e75807560af0bbe9fd66b55d36a0ff3/output/jars/libs/okio-1.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/094f046d8e75807560af0bbe9fd66b55d36a0ff3/output/jars/libs/okhttp-3.2.0.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/094f046d8e75807560af0bbe9fd66b55d36a0ff3/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

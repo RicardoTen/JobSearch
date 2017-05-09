@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/app_white"
+    >
+
+    <include layout="@layout/actionbar" />
+
+    <LinearLayout
+        android:id="@+id/employee4_in_editdata_myqiuzhiyixiang_state"
+        style="@style/Normal_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_more_height">
+
+        <TextView
+            style="@style/Normal_Linearlayout_leftTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="求职状态" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/employee4_in_editdata_myqiuzhiyixiang_stateTxt"
+            style="@style/Normal_Linearlayout_rightTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="未完善"
+            android:textColor="@color/txt_gray_shen_color" />
+
+        <com.boss.view.IconFontTextView
+            style="@style/Normal_LinearLayout_Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/fengexian"/>
+    <ListView
+        android:id="@+id/employee4_in_editdata_myqiuzhiyixiang_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:columnWidth="50dip"
+        android:gravity="center"
+        android:horizontalSpacing="1dip"
+        android:minHeight="80dip"
+        android:numColumns="4"
+        android:paddingTop="5dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dip" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/employee4_in_editdata_myqiuzhiyixiang_goQiWangZhiwei"
+        style="@style/Normal_Button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/btn_marginLeft"
+        android:text="添加期望职位" >
+    </Button>
+</LinearLayout>

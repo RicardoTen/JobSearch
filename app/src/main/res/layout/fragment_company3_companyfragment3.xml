@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/company3_companyfragment3_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="asd" />
+
+                <ImageView
+                    android:id="@+id/company3_companyfragment3_setting"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/orange"
+                    android:text="设置" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/app_main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_avtar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_boss_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="邓佳怡" />
+
+                    <TextView
+                        android:id="@+id/tv_boss_job"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HR" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@color/lightpink" />
+            </LinearLayout>
+
+            <com.boss.view.MGridView
+                android:id="@+id/company3_companyfragment3_girdview1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:columnWidth="50dip"
+                android:gravity="center"
+                android:horizontalSpacing="1dip"
+                android:minHeight="50dip"
+                android:numColumns="3"
+                android:paddingTop="5dip"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dip" />
+
+            <com.boss.view.MGridView
+                android:id="@+id/company3_companyfragment3_girdview2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="5dip"
+                android:columnWidth="50dip"
+                android:gravity="center"
+                android:horizontalSpacing="1dip"
+                android:minHeight="50dip"
+                android:numColumns="4"
+                android:paddingTop="5dip"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dip" />
+
+
+            <include layout="@layout/activity_company3_in_setting"></include>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

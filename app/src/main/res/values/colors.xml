@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="app_main">#53cac4</color>
+<color name="app_red">#E93939</color>
+<color name="lightpink">#FFB6C1</color><!--亮粉红色 -->   
+<color name="orange">#FFA500</color><!--橙色 -->   
+<color name="lightsalmon">#FFA07A</color><!--亮肉色 --> 
+<color name="app_white">#FFFFFF</color>  
+<color name="app_black">#000000</color>
+<color name="background">#e9efef</color><!-- 背景颜色 -->
+
+
+
+<color name="actionbar_title">#FFFFFF</color>
+
+<!-- 类似List的常规 -->
+<color name="normal_data_icon_color">#59CAC2</color>
+
+<color name="txt_gray_qian_color">#c4c4c4</color>
+<color name="txt_gray_shen_color">#848889</color>
+
+
+    <color name="colorPrimary">#4D394B</color>
+    <color name="colorPrimaryDark">#1F171E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#3FBA91</color>
+    <color name="colorRed">#E8526D</color>
+    <color name="colorYellow">#FBB260</color>
+    <color name="colorBlue">#2D9CF5</color>
+    <color name="colorTranslucent">#66000000</color>
+    <color name="colorGrey">#CCCCCC</color>
+    <color name="colorDim">#bebebe</color>
+    <color name="colorRefresh">#808183</color>
+
+
+<!--下拉框-->
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+
+
+    <!--IM用到的资源-->
+
+    <color name="transparent">#00000000</color>
+
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="color_theme">#489cfa</color>
+
+    <color name="color_emote_divder">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+    <color name="text_gray">#969696</color>
+    <color name="msg_chat_bg">#eceff4</color>
+
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="c_f98800">#ed4e23</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="guide_color">#898989</color>
+
+    <color name="common_bg">#fcfcfc</color>
+    <color name="color_99">#999999</color>
+    <color name="color_line">#dadada</color>
+    <color name="color_chat_send_status">#818181</color>
+    <color name="color_msg_system_time_bg">#20000000</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_b4">#b4b4b4</color>
+
+
+    <color name="color_search_bac">#59CAC2</color>
+
+    <color name="line_color">#e0e0e0</color>
+
+
+
+    <color name="theme_bg">#f6f6f6</color>
+    <color name="theme_title">#63aade</color>
+    <color name="prompt_bg">#eaecec</color>
+    <color name="sliding_left_head">#99ccff</color>
+    <color name="sliding_left_press">#50597b</color>
+    <color name="sliding_left_normal">#394264</color>
+    <color name="sliding_right_normal">#669999</color>
+    <color name="red">#ea5450</color>
+    <color name="red_pressed">#fb6e6e</color>
+    <color name="gray_pressed">#a8a8a8</color>
+    <color name="blue">#63aade</color>
+    <color name="blue_pressed">#99ccee</color>
+    <color name="black">#333333</color>
+
+</resources>

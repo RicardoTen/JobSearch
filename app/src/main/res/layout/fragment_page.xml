@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    android:gravity="center"  
+    android:background="@color/background">
+  
+    <TextView  
+        android:id="@+id/txt_num"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="1"  
+        android:textSize="22dp"
+        android:visibility="gone"
+        android:gravity="center"/>  
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/employee4_in_editdata_yulanjianli_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="vertical"
+                 >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/app_white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_avatar"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/employee4_in_editdata_yulanjianli_nick"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:text="邓佳怡"
+                                android:textColor="@color/app_main"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/employee4_in_editdata_yulanjianli_companyname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:text="现任Android广州梦森生物"
+                                android:textColor="@color/txt_gray_shen_color"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/employee4_in_editdata_yulanjianli_educate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1年 本科 8k~12k"
+                                android:textColor="@color/txt_gray_shen_color"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <include layout="@layout/fengexian" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_introduce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="可朝九晚五，抗压\n可朝九晚五，抗压\n可朝九晚五，抗压\n可朝九晚五，抗压\n可朝九晚五，抗压"
+                            android:textColor="@color/txt_gray_shen_color"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="在职-月内到岗"
+                            android:textColor="@color/txt_gray_qian_color"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/app_white"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="期望职位"
+                        android:textColor="@color/app_main"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_exceptZhiwei"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Android"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_exceptMoney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="8k-12k"
+                            android:textColor="@color/app_red"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_exceptHangye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="期望行业：不限"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_exceptCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="期望城市：广州"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/app_white"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="工作经历"
+                        android:textColor="@color/app_main"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_companynamea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="广州梦森生物科技有限公司"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_companyData"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="2015.02-至今"
+                            android:textColor="@color/txt_gray_shen_color"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_exceptZhiwei2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Android"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_companyVontent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="良好的学习能力，遇到问题能独立解决。"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_companyname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="1：独立安卓程序开发设计维护。"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_companyBiaoqian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Android Java JavaScript"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/app_white"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="教育经历"
+                        android:textColor="@color/app_main"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_eduschool"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="肇庆学院"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/employee4_in_editdata_yulanjianli_schoolData"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="2015.02-至今"
+                            android:textColor="@color/txt_gray_shen_color"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/employee4_in_editdata_yulanjianli_schoolMajor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="金融数学|本科"
+                        android:textColor="@color/txt_gray_shen_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

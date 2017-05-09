@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/app_main" >
+
+    <com.boss.view.IconFontTextView
+        android:id="@+id/actionbar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/actionbar_margin"
+        android:padding="10dp"
+        android:textColor="@color/actionbar_title"
+        android:textSize="@dimen/actionbar_icon_size" />
+
+    <TextView
+        android:id="@+id/actionbar_center"
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionbar_title"
+        android:textSize="@dimen/actionbar_title_size" />
+    
+    
+
+
+    <com.boss.view.IconFontTextView
+        android:id="@+id/actionbar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/actionbar_margin"
+        android:padding="10dp"
+        android:textColor="@color/actionbar_title"
+        android:textSize="@dimen/actionbar_icon_size" />
+
+
+    <ImageView
+        android:id="@+id/img_serch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search_history"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/actionbar_right"
+        android:layout_alignEnd="@+id/actionbar_right" />
+
+
+    <TextView
+        android:id="@+id/tv_devider"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/img_serch"
+        android:layout_marginRight="10dp"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_round_add"
+        android:layout_centerVertical="true"
+
+        android:layout_toLeftOf="@+id/tv_devider"
+
+
+        />
+
+</RelativeLayout>

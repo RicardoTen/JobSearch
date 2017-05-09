@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <include layout="@layout/actionbar" />
+
+    <fragment
+        android:id="@+id/login_main_employee_tab1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.employee2.EmployeeFragment2" />
+
+    <fragment
+        android:id="@+id/login_main_employee_tab2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.company2.CompanyFragment2" />
+
+    <fragment
+        android:id="@+id/login_main_employee_tab3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.employee3.EmployeeFragment3" />
+
+    <fragment
+        android:id="@+id/login_main_employee_tab4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.boss.employee4.EmployeeFragment4" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp" />
+
+    <com.boss.view.EmployeeFragmentIndicator
+        android:id="@+id/login_main_employee_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/app_white" />
+
+</LinearLayout>
