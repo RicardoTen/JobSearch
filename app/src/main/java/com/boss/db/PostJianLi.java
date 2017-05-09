@@ -1,5 +1,7 @@
 package com.boss.db;
 
+import android.util.Log;
+
 import cn.bmob.v3.BmobObject;
 
 /**
@@ -52,6 +54,7 @@ public class PostJianLi extends BmobObject{
 
     public void setPostJianliUserNme(String postJianliUserNme) {
         this.postJianliUserNme = postJianliUserNme;
+        Log.e("","");
     }
 
     public String getPostJianliUserPhone() {
