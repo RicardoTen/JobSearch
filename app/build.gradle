@@ -83,4 +83,9 @@ dependencies {
     compile 'com.github.PhilJay:MPAndroidChart:v2.2.5'
     compile 'com.github.lecho:hellocharts-android:v1.5.8'
 
+/**
+ * Json解析
+ */
+    compile 'com.alibaba:fastjson:1.2.10'
+
 }

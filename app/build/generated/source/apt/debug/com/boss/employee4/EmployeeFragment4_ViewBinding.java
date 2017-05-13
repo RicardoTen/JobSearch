@@ -17,7 +17,7 @@ public class EmployeeFragment4_ViewBinding<T extends EmployeeFragment4> implemen
 
   private View view2131558577;
 
-  private View view2131558847;
+  private View view2131558848;
 
   public EmployeeFragment4_ViewBinding(final T target, Finder finder, Object source) {
     this.target = target;
@@ -40,7 +40,7 @@ public class EmployeeFragment4_ViewBinding<T extends EmployeeFragment4> implemen
       }
     });
     view = finder.findRequiredView(source, R.id.layout_ercode, "method 'onClickErCode'");
-    view2131558847 = view;
+    view2131558848 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,8 +57,8 @@ public class EmployeeFragment4_ViewBinding<T extends EmployeeFragment4> implemen
     view2131558846 = null;
     view2131558577.setOnClickListener(null);
     view2131558577 = null;
-    view2131558847.setOnClickListener(null);
-    view2131558847 = null;
+    view2131558848.setOnClickListener(null);
+    view2131558848 = null;
 
     this.target = null;
   }

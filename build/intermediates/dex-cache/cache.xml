@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\滕新科\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.10\875e4b088224eace23dd9abbc354b058bab62f7a\fastjson-1.2.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="875e4b088224eace23dd9abbc354b058bab62f7a">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\fastjson-1.2.10_30ad23196f5d928ef7492d38aa6188adb6143b11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_9102525446cdd46f3fa7694b6b12f8673303c9ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\滕新科\.android\build-cache\312e4f89ecb18448e736acaea8104745c63040e6\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -45,15 +63,6 @@
         revision="25.0.0"
         sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
         <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_170373df2a585e939521729ead9d1bd75f0e20e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\codeSoft\Android\graduateWorkSpace\boss\app\libs\rxjava-1.1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="G:\codeSoft\Android\graduateWorkSpace\boss\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_9102525446cdd46f3fa7694b6b12f8673303c9ff.jar" />
     </item>
 
 </items>

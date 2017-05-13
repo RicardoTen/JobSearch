@@ -181,6 +181,42 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
+
+
+
+            <include layout="@layout/fengexian" />
+
+            <LinearLayout
+                android:id="@+id/layout_back_up"
+                style="@style/Normal_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/Normal_Linearlayout_leftTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备份服务器数据"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.boss.view.IconFontTextView
+                    style="@style/Normal_LinearLayout_Icon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
             <include layout="@layout/fengexian" />
 
             <LinearLayout

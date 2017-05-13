@@ -15,7 +15,7 @@ import java.lang.Override;
 public class ReceiveVideoHolder_ViewBinding<T extends ReceiveVideoHolder> implements Unbinder {
   protected T target;
 
-  private View view2131558904;
+  private View view2131558905;
 
   public ReceiveVideoHolder_ViewBinding(final T target, Finder finder, Object source) {
     this.target = target;
@@ -23,7 +23,7 @@ public class ReceiveVideoHolder_ViewBinding<T extends ReceiveVideoHolder> implem
     View view;
     view = finder.findRequiredView(source, R.id.iv_avatar, "field 'iv_avatar' and method 'onAvatarClick'");
     target.iv_avatar = finder.castView(view, R.id.iv_avatar, "field 'iv_avatar'", ImageView.class);
-    view2131558904 = view;
+    view2131558905 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -43,8 +43,8 @@ public class ReceiveVideoHolder_ViewBinding<T extends ReceiveVideoHolder> implem
     target.tv_time = null;
     target.tv_message = null;
 
-    view2131558904.setOnClickListener(null);
-    view2131558904 = null;
+    view2131558905.setOnClickListener(null);
+    view2131558905 = null;
 
     this.target = null;
   }

@@ -17,9 +17,11 @@ public class AdminFragment_ViewBinding<T extends AdminFragment> implements Unbin
 
   private View view2131558845;
 
+  private View view2131558847;
+
   private View view2131558577;
 
-  private View view2131558847;
+  private View view2131558848;
 
   public AdminFragment_ViewBinding(final T target, Finder finder, Object source) {
     this.target = target;
@@ -41,6 +43,14 @@ public class AdminFragment_ViewBinding<T extends AdminFragment> implements Unbin
         target.onCreateAdminUserClick(p0);
       }
     });
+    view = finder.findRequiredView(source, R.id.layout_back_up, "method 'onClickBackUp'");
+    view2131558847 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClickBackUp(p0);
+      }
+    });
     view = finder.findRequiredView(source, R.id.company3_in_setting_exit, "method 'onClickLogout'");
     view2131558577 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
@@ -50,7 +60,7 @@ public class AdminFragment_ViewBinding<T extends AdminFragment> implements Unbin
       }
     });
     view = finder.findRequiredView(source, R.id.layout_ercode, "method 'onClickErCode'");
-    view2131558847 = view;
+    view2131558848 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -67,10 +77,12 @@ public class AdminFragment_ViewBinding<T extends AdminFragment> implements Unbin
     view2131558846 = null;
     view2131558845.setOnClickListener(null);
     view2131558845 = null;
-    view2131558577.setOnClickListener(null);
-    view2131558577 = null;
     view2131558847.setOnClickListener(null);
     view2131558847 = null;
+    view2131558577.setOnClickListener(null);
+    view2131558577 = null;
+    view2131558848.setOnClickListener(null);
+    view2131558848 = null;
 
     this.target = null;
   }

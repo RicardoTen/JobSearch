@@ -52,12 +52,12 @@
         "source": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\src\\main\\res\\layout\\activity_login_new.xml"
     },
     {
-        "merged": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_employee3_employeefragment3.xml",
-        "source": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\src\\main\\res\\layout\\fragment_employee3_employeefragment3.xml"
-    },
-    {
         "merged": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_employeestep4.xml",
         "source": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\src\\main\\res\\layout\\activity_register_employeestep4.xml"
+    },
+    {
+        "merged": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_employee3_employeefragment3.xml",
+        "source": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\src\\main\\res\\layout\\fragment_employee3_employeefragment3.xml"
     },
     {
         "merged": "G:\\codeSoft\\Android\\graduateWorkSpace\\boss\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_admin.xml",
